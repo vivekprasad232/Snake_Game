@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Snake Game</title>
+</head>
+
+<body>
+    <div id="over">Game Over</div>
+    <div id="maincontainer">
+        <div id="score">
+            <h3>Score:</h3>
+            <div id="pointsEarned">0</div>
+        </div>
+        <div id="game">
+            <div id="gameContainer"></div>
+        </div>
+        <div id="setting">
+            <div>
+                <div id="startcontainer">
+                    <button id="start">Start New Game</button>
+                </div>
+                <div>
+                    <label for="height">Choose Height:</label>
+                    <select name="list1" id="height">
+                        <option value="30">30</option>
+                        <option value="40" selected>40</option>
+                        <option value="50">50</option>
+                        <option value="60">60</option>
+                    </select>
+                    <label for="width">Choose Width:</label>
+                    <select name="list2" id="width">
+                        <option value="30">30</option>
+                        <option value="40" selected>40</option>
+                        <option value="50">50</option>
+                        <option value="60">60</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="speed">Choose Speed:</label>
+                    <input type="range" value="50" max="100" id="speed">
+                </div>
+                <div>
+                    <button id="btn">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="App.js"></script>
+</body>
+
+</html>
