@@ -72,9 +72,10 @@ body{
     color: white;
 }
 #btn{
+    display: block;
     background-color: wheat;
     padding: 1%;
-    margin: 0 50%;
+    margin: 0 auto;
     border-radius: 20%;
     cursor: pointer;
 }
