@@ -93,14 +93,14 @@ body{
     cursor: pointer;
 }
 #controls{
-    width: 8rem;
-    height: 6rem;
+    width: 12rem;
+    height: 9rem;
     margin: 0.5rem auto;
 }
 .cbtn{
     display: block;
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     margin: auto;
 }
 #left-rightb{
