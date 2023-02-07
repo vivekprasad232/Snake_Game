@@ -42,12 +42,29 @@
                 </div>
                 <div>
                     <label for="speed">Choose Speed:</label>
-                    <input type="range" value="50" max="100" id="speed">
+                    <input type="range" value="50" max="100" class="speed">
                 </div>
                 <div>
                     <button id="btn">Submit</button>
                 </div>
             </div>
+        </div>
+    </div>
+    <div id="mcontainer">
+        <h3 id="mscore">Score: 0</h3>
+        <div id="mgame">
+            <div id="mgameContainer"></div>
+        </div>
+        <div id="controls">
+            <div><button id="upb" class="cbtn">&uarr;</button></div>
+            <div id="left-rightb"><button id="leftb" class="cbtn">&larr;</button><button id="rightb" class="cbtn">&rarr;</button></div>
+            <div><button id="downb" class="cbtn">&darr;</button></div>
+        </div>
+        <div><button id="newGame">Start New Game</button></div>
+        <div id="mspeed">
+            <label for="speed">Choose Speed:</label>
+            <input type="range" value="50" max="100" class="speed">
+            <div><button id="setSpeed">Set Speed</button></div>
         </div>
     </div>
     <script src="App.js"></script>
